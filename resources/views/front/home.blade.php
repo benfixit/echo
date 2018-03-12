@@ -244,7 +244,10 @@
                         <img src="{{ asset('img/garment-care.png') }}" class="img-fluid" alt="Garment Care Logo">
                     </div>
                     <div class="col-6 col-md-3 text-center">
-                        <img src="{{ asset('img/first_bank.png') }}" class="img-fluid" alt="First Bank Logo">
+                        <img src="{{ asset('img/first_bank.jpg') }}" class="img-fluid" alt="First Bank Logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="{{ asset('img/splash-logo.jpg') }}" class="img-fluid" alt="Cordros Capital Logo">
                     </div>
                 </div>
             </div>

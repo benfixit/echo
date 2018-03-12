@@ -294,10 +294,10 @@ h1, h2, h3, h4, h5, h6, p, span {
     display: block;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 14s;
+    -webkit-animation-duration: 48s;
     animation-name: fade;
     animation-iteration-count: infinite;
-    animation-duration: 14s;
+    animation-duration: 48s;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
@@ -320,11 +320,11 @@ h1, h2, h3, h4, h5, h6, p, span {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 #f2 {
-    -webkit-animation-delay: -8s;
+    -webkit-animation-delay: -25s;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 #f3 {
-    -webkit-animation-delay: -6s;
+    -webkit-animation-delay: -23s;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
