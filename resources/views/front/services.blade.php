@@ -52,8 +52,8 @@
                     Our Services
                 </h1>
                 <p>
-                    Our consulting firm co-creates relevant and impactful solutions<br>
-                    for our clients, by combining creative and strategic minds.
+                    We create innovative HR & Enterprise Solutions for result-driven organizations.<br>
+                    We focus on enabling performance improvements around our clients’ people, product and project concerns.
                 </p>
             </div>
         </div>
@@ -68,10 +68,11 @@
             <div class="col-12 col-md-6 offset-md-3 text-center">
                 <p class="boast">
                     <strong>
-                        Since 2009, we've provided strategic HR consulting
-                        services for partners and clients ranging from budding
-                        entrepreneurs to leading financial houses. We've helped
-                        hundreds of business grow through bespoke strategies.
+                        Our capabilities and expertise cuts across a variety of sectors,
+                        including but not limited to: Finance, Education, Media, Manufacturing,
+                        Telecommunications, Technology, Oil and Gas, Government, Health, Hospitality,
+                        Human Resources, Infrastructure, Sales & Marketing, Supply Chain & Procurement,
+                        and Transport & Logistics.
                     </strong>
                 </p>
             </div>
@@ -114,6 +115,75 @@
         </div>
     </div>
 
+    <section class="container-fluid section-container services-we-offer">
+        <div class="row">
+            <div class="col-12 special-header-div">
+                <h5 class="special-header sh-black text-center"><span><strong>SERVICES WE OFFER</strong></span></h5>
+            </div>
+            <br><br><br>
+            <h4 class="col-12 text-center">HR Advisory Services</h4>
+            <br>
+            <h6 class="col-12 text-center">HR Audit &nbsp;&nbsp;.&nbsp;&nbsp;HR & Enterprise Policy Development &nbsp;&nbsp;.&nbsp;&nbsp;Organizational Development</h6>
+            <br>
+            <p class="col-12 col-md-8 offset-md-3 text-justify">
+                Our Human Resource Advisory unit provides the building blocks your organization needs to attract, select, manage, motivate, train, develop and retain valuable employees.
+                Our approach is adopting an array of developed and tested tools, procedures and methodologies to diagnose HR issues and proffer strategic HR interventions that are  accurately tailored to improve efficiency, performance, and enhance human capacity.
+            </p>
+        </div>
+        <div class="row">
+            <br>
+            <div class="col-12 special-header-div">
+                <h5 class="special-header sh-black text-center"></h5>
+            </div>
+            <br><br>
+            <h4 class="col-12 text-center">Product Development & Management</h4>
+            <br>
+            <h6 class="col-12 text-center">
+                Ideation . Product Review & Management . Proposition Design . Product & Service Innovation
+            </h6>
+            <br>
+            <p class="col-12 col-md-8 offset-md-3 text-justify">
+                As a consultancy, we've served hundreds of customers, and we stand behind our products. Our dedicated<br>
+                customer support team offers ongoing services, whether that means squashing bugs the moment they<br>
+                arise or providing more in-depth services to clients in need.
+            </p>
+        </div>
+        <div class="row">
+            <br>
+            <div class="col-12 special-header-div">
+                <h5 class="special-header sh-black text-center"></h5>
+            </div>
+            <br><br>
+            <h4 class="col-12 text-center">Enterprise Development</h4>
+            <br>
+            <h6 class="col-12 text-center">
+                Business Performance Audit . Enterprise Planning & Business Development . Strategy Development/Retreat Management
+            </h6>
+            <br>
+            <p class="col-12 col-md-8 offset-md-3 text-justify">
+                As businesses continue to grow and expand, they will need to support and nurture their internal growth, monitor and control their business activities and organizational performance. Our Enterprise Development services help organizations drive a pipeline of new business opportunities, build and maintain relationships with prospective clients and execute enterprise-wide performance transformation initiatives.
+            </p>
+        </div>
+        <div class="row">
+            <br>
+            <div class="col-12 special-header-div">
+                <h5 class="special-header sh-black text-center"></h5>
+            </div>
+            <br><br>
+            <h4 class="col-12 text-center">Project & Programme Management</h4>
+            <br>
+            <h6 class="col-12 text-center">
+                Collaborations & Programme Management
+            </h6>
+            <br>
+            <p class="col-12 col-md-8 offset-md-3 text-justify">
+                In order for a business to remain dynamic, new products that will keep the business ahead are of utmost priority.
+                Through our Product Development & Management services, our team of experts can help your organization enrich its portfolio with innovative products that solve customer problems and yields maximum growth. We will carry out a research on your market and environment to provide innovative ideas and concepts.
+
+            </p>
+        </div>
+    </section>
+    <br><br><br>
     <section class="container-fluid section-container service-ppp">
         <div class="row">
             <div class="col-12 col-md-10 offset-md-1">
@@ -174,78 +244,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <br><br><br>
-    <section class="container-fluid section-container services-we-offer">
-        <div class="row">
-            <div class="col-12 special-header-div">
-                <h5 class="special-header sh-black text-center"><span><strong>SERVICES WE OFFER</strong></span></h5>
-            </div>
-            <br><br><br>
-            <h4 class="col-12 text-center">HR Advisory Services</h4>
-            <br>
-            <h6 class="col-12 text-center">HR Audit &nbsp;&nbsp;.&nbsp;&nbsp;HR & Enterprise Policy Development &nbsp;&nbsp;.&nbsp;&nbsp;Organizational Development</h6>
-            <br>
-            <p class="col-12 col-md-8 offset-md-3 text-justify">
-                As a consultancy, we've served hundreds of customers, and we stand behind our products. Our dedicated<br>
-                customer support team offers ongoing services, whether that means squashing bugs the moment they<br>
-                arise or providing more in-depth services to clients in need.
-            </p>
-        </div>
-        <div class="row">
-            <br>
-            <div class="col-12 special-header-div">
-                <h5 class="special-header sh-black text-center"></h5>
-            </div>
-            <br><br>
-            <h4 class="col-12 text-center">Product Development & Management</h4>
-            <br>
-            <h6 class="col-12 text-center">
-                Ideation . Product Review & Management . Proposition Design . Product & Service Innovation
-            </h6>
-            <br>
-            <p class="col-12 col-md-8 offset-md-3 text-justify">
-                As a consultancy, we've served hundreds of customers, and we stand behind our products. Our dedicated<br>
-                customer support team offers ongoing services, whether that means squashing bugs the moment they<br>
-                arise or providing more in-depth services to clients in need.
-            </p>
-        </div>
-        <div class="row">
-            <br>
-            <div class="col-12 special-header-div">
-                <h5 class="special-header sh-black text-center"></h5>
-            </div>
-            <br><br>
-            <h4 class="col-12 text-center">Enterprise Development</h4>
-            <br>
-            <h6 class="col-12 text-center">
-                Business Performance Audit . Enterprise Planning & Business Development . Strategy Development/Retreat Management
-            </h6>
-            <br>
-            <p class="col-12 col-md-8 offset-md-3 text-justify">
-                As a consultancy, we've served hundreds of customers, and we stand behind our products. Our dedicated<br>
-                customer support team offers ongoing services, whether that means squashing bugs the moment they<br>
-                arise or providing more in-depth services to clients in need.
-            </p>
-        </div>
-        <div class="row">
-            <br>
-            <div class="col-12 special-header-div">
-                <h5 class="special-header sh-black text-center"></h5>
-            </div>
-            <br><br>
-            <h4 class="col-12 text-center">Project & Programme Management</h4>
-            <br>
-            <h6 class="col-12 text-center">
-                Collaborations & Programme Management
-            </h6>
-            <br>
-            <p class="col-12 col-md-8 offset-md-3 text-justify">
-                As a consultancy, we've served hundreds of customers, and we stand behind our products. Our dedicated<br>
-                customer support team offers ongosend-message.phping services, whether that means squashing bugs the moment they<br>
-                arise or providing more in-depth services to clients in need.
-            </p>
         </div>
     </section>
 

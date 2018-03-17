@@ -49,12 +49,8 @@
         <div class="row page-jumbo">
             <div class="col-sm-8 offset-sm-2">
                 <h1>
-                    About Us
+                    Innovative Solutions.
                 </h1>
-                <p>
-                    Our consulting firm co-creates relevant and impactful solutions<br>
-                    for our clients, by combining creative and strategic minds.
-                </p>
             </div>
         </div>
 
@@ -80,16 +76,17 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 content-div">
                         <p>
-                            Alan & Grant, is a Human Resources and <br>Business Advisory firm. By fusing
-                            creative <br> and strategic minds, we co-create relevant and <br>
-                            impactful solutions to our clients.
+                            We are a diverse team of consultants <br>
+                            driven by a commitment to unlock <br>
+                            value for our clients.
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 content-div">
                         <p>
-                            Alan & Grant, is a Human Resources and <br>Business Advisory firm. By fusing
-                            creative <br> and strategic minds, we co-create relevant and <br>
-                            impactful solutions to our clients.
+                            We strive for longterm client relationships, <br>
+                            taking the time to gain a thorough understanding <br>
+                            of the organization's business goal and  strategy, <br>
+                            and the leadership competencies required for success.
                         </p>
                     </div>
                 </div>
@@ -102,9 +99,11 @@
             <div class="col-sm-4 offset-sm-1 title-div special-header-div">
                 <h5 class="special-header sh-black"><span>MEET THE TEAM</span></h5>
                 <br>
+                <!--
                 <p class="offset-sm-3 text-uppercase">
                     <strong>We are pleased</strong><br> to meet you.
                 </p>
+                -->
             </div>
             <div class="col-sm-7 content-wrapper">
                 <div class="row">
@@ -134,7 +133,7 @@
             <div class="col-12 col-md-8 offset-md-2 wrapper">
                 <div class="row">
                     <div class="col-6 col-md-3 outer">
-                        <img src="{{ asset('img/person-1.jpg') }}" alt="Person">
+                        <img src="{{ asset('img/gbenga.jpg') }}" alt="Person">
                         <div class="desc">
                             <h6><strong>Gbenga Totoyi</strong></h6>
                             <p class="text-uppercase title">ceo</p>
@@ -201,6 +200,12 @@
             </div>
         </div>
     </section>
+
+    <section class="container-fluid section-container" style="padding: 7%;">
+
+    </section>
+
+    {{--
 
     <section class="container-fluid section-container mission-vision-values">
         <div class="row">
@@ -282,6 +287,7 @@
             </div>
         </div>
     </section>
+    --}}
 
     <section class="container-fluid section-container contact-us-drop-line">
         <div class="row">
@@ -291,12 +297,12 @@
                         <h5 class="special-header sh-black"><span>GET IN TOUCH</span></h5>
                     </div>
                     <div class="col-sm-11 offset-sm-1">
-                        <h2>Our head office</h2>
+                        <!--<h2>Our head office</h2>-->
                         <p>
-                            <span class="fa fa-map-marker"></span> 120 Bullion drive, Victoria Island, Lagos, Nigeria.
+                            <span class="fa fa-map-marker"></span> {{ config('utils.office-address') }}
                         </p>
                         <p>
-                            <span class="fa fa-paper-plane"></span> &#104;&#101;&#108;&#108;&#111;&#64;&#97;&#108;&#97;&#110;&#97;&#110;&#100;&#103;&#114;&#97;&#110;&#116;&#46;&#99;&#111;&#109;
+                            <span class="fa fa-paper-plane"></span> {{ config('utils.contact-email') }}
                         </p>
                         <p>
                             <span class="fa fa-phone"></span> 09028521055
@@ -327,7 +333,7 @@
                         <h5 class="special-header sh-black"><span>CONTACT US</span></h5>
                     </div>
                     <div class="col-sm-8 offset-sm-1 form-div">
-                        <h2>Drop us a line.</h2>
+                        <h2>Send us a message.</h2>
                         <form action="{{ route('front.send-message') }}" method="post" role="form" name="drop-line-form" id="drop-line-form">
                             <div class="form-group">
                                 <input type="text" name="name" class="form-control bg-ash" id="name" placeholder="Name">

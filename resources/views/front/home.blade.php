@@ -57,11 +57,11 @@
         <div class="row page-jumbo">
             <div class="col-sm-8 offset-sm-2">
                 <h1 class="text-center">
-                    We deliver innovative solution
+                    We deliver innovative solutions.
                 </h1>
                 <p class="text-center">
-                    Our consulting firm co-creates relevant and impactful solutions
-                    for our clients, by combining creative and strategic minds.
+                    At Alan & Grant, we offer fresh thinking and a consultative approach to
+                    HR &amp; Business Advisory - enabling performance improvements every time!
                 </p>
             </div>
         </div>
@@ -79,20 +79,18 @@
                         <a href="{{ route('front.services') }}">
                             <h5>PEOPLE</h5>
                             <p>
-                                We're a company of creative thinkers, strategists, three to say
-                                thinkers, strategists, three to lorem ipsum dolor sit amet, ati be be lo and other
-                                things that cannot be said here.
+                                Having the right blend of people in character and competence seats at the very core of business performance.
+                                We work closely with each client to design and deploy tailored HR & People solutions.
                             </p>
                         </a>
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-sm-12 content-div" style="padding-right:0; border-right: thin solid #aaaaaa;">
                         <a href="{{ route('front.services') }}">
-                            <h5>PRODUCT</h5>
+                            <h5>PRODUCTS</h5>
                             <p>
-                                We're a company of creative thinkers, strategists, three to say
-                                thinkers, strategists, three to lorem ipsum dolor sit amet, ati be be lo and other
-                                things that cannot be said here.
+                                Our access to new customer insights and market data help us create innovative ways to support
+                                the performance of your product and service offerings.
                             </p>
                         </a>
                     </div>
@@ -100,8 +98,8 @@
                         <a href="{{ route('front.services') }}">
                             <h5>PROJECTS</h5>
                             <p>
-                                The company of creative and thinkers, strategists, three to
-                                lorem ipsum dolor sit amet, ati be be lo and other things that cannot be said here.
+                                For us, business performance is greatly influenced by its ability to focus on the core,
+                                allowing for strategic affiliations where required. This is why we offer Project Management as a service for partners and clients.
                             </p>
                         </a>
                     </div>
@@ -109,9 +107,8 @@
                         <a href="{{ route('front.services') }}">
                             <h5>PLATFORMS</h5>
                             <p>
-                                The company of creative and thinkers, strategists, three to
-                                lorem ipsum dolor sit amet, ati be be lo and other things that
-                                cannot be said here.
+                                This focus area is a long terms aspiration for us. We are exploring ways to create value-adding platforms for SMEs,
+                                non-profits and development/donor agencies looking for innovative ways to achieve maximum impact.
                             </p>
                         </a>
                     </div>
@@ -138,9 +135,9 @@
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12 content-div">
                         <p>
-                            Alan & Grant, is a Human Resources and <br>Business Advisory firm. By combining
-                            creative <br> and strategic minds, we co-create relevant and <br>
-                            impactful solutions to our clients.
+                            We are an HR & Business Advisory firm <br>
+                            delivering innovative solutions <br>
+                            to result-driven firms.
                         </p>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-12 text-center">
@@ -164,18 +161,21 @@
                     <div class="col-lg-3 col-md-6 col-sm-12 services">
                         <h4>Learning & HR Advisory Services</h4>
                         <ul>
-                            <li>Recruitment & Assessment</li>
-                            <li>HR Audit</li>
-                            <li>HR & Enterprise Policy Development</li>
-                            <li>Organizational Development</li>
+                            <li>HR &amp; People Audit</li>
+                            <li>HR Support &amp; Outsourcing</li>
+                            <li>Talent Acquisition</li>
+                            <li>Assessment Centre Design and Management</li>
+                            <li>Competency Modeling</li>
+                            <li>Employee Performance Management Systems</li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 services">
                         <h4>Enterprise Development</h4>
                         <ul>
-                            <li>Enterprise Planning & Business Development</li>
-                            <li>Business Performance Audit</li>
-                            <li>Strategy Development/Retreat Management</li>
+                            <li>Growth Planning</li>
+                            <li>Strategy Review and Development</li>
+                            <li>New Customer/Market Research & Survey</li>
+                            <li>Business Performance Audit & Planning</li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 services">
@@ -183,8 +183,8 @@
                         <ul>
                             <li>Ideation</li>
                             <li>Proposition Design</li>
-                            <li>Product Review & Management</li>
                             <li>Product & Service Innovation</li>
+                            <li>Product Review, Development & Management</li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 services">
@@ -258,22 +258,16 @@
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2 wrapper">
                 <div class="row">
-                    <div class="col-12 col-md-8 sect">
-                        <h6 class="text-uppercase"><strong>Newsletter</strong></h6>
-                        <form class="form-inline" method="post" action="{{ route('front.newsletter') }}" id="newsletter-form" name="newsletter-form">
-                            {{ csrf_field() }}
-                            <div class="form-group" style="margin-right: 2%;">
-                                <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address">
-                            </div>
-                            <button type="submit" class="btn btn-default bordered btn-black-on-white newsletter-btn">Submit</button>
-                        </form>
-                    </div>
-                    <div class="col-12 col-md-4 sect">
-                        <h6 class="text-uppercase"><strong>Upcoming Events</strong></h6>
-                        <a href="{{ route('front.events') }}">
-                            <span class="fa fa-calendar fa-3x"></span>
-                        </a>
-                    </div>
+                    <p class="col-12 col-md-10 offset-md-1">
+                        Get the latest in HR & Business innovation news and events delivered straight to your inbox.
+                    </p>
+                    <form class="form-inline col-12 col-md-6 offset-md-4" method="post" action="{{ route('front.newsletter') }}" id="newsletter-form" name="newsletter-form">
+                        {{ csrf_field() }}
+                        <div class="form-group" style="margin-right: 2%;">
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address">
+                        </div>
+                        <button type="submit" class="btn btn-default bordered btn-black-on-white newsletter-btn">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>

@@ -53,7 +53,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-md-2 sect">
-                    <h6 class="text-uppercase"><strong>Our Services</strong></h6>
+                    <h6 class="text-uppercase"><strong>Focus Areas</strong></h6>
                     <ul>
                         <li><a href="{{ route('front.services') }}" title="People">People</a></li>
                         <li><a href="{{ route('front.services') }}" title="Products">Products</a></li>
@@ -64,15 +64,14 @@
                 <div class="col-6 col-md-2 sect">
                     <h6 class="text-uppercase"><strong>Insights</strong></h6>
                     <ul>
-                        <li><a href="{{ route('front.insights') }}" title="Blog">Blog</a></li>
+                        <li><a href="{{ route('front.insights') }}" title="Blog">Articles</a></li>
                         <li><a href="{{ route('front.insights') }}" title="Case Studies">Case Studies</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-1 sect">
                     <h6 class="text-uppercase"><strong>Learning</strong></h6>
                     <ul>
-                        <li><a href="{{ route('front.learning') }}" title="Schedule">Schedule</a></li>
-                        <li><a href="{{ route('front.learning') }}" title="Courses">Courses</a></li>
+                        <li><a href="{{ route('front.learning') }}" title="Course Schedule">Course Schedule</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md-2 sect jobs">
@@ -85,11 +84,11 @@
                 <div class="col-6 col-md-3 sect">
                     <h6 class="text-uppercase"><strong>Contact Us</strong></h6>
                     <ul>
-                        <li><span class="fa fa-map-marker"></span> 120 Bullion drive, Victoria Island, Lagos, Nigeria.
+                        <li><span class="fa fa-map-marker"></span> {{ config('utils.office-address') }}
                         </li>
-                        <li><span class="fa fa-paper-plane"></span> &#104;&#101;&#108;&#108;&#111;&#64;&#97;&#108;&#97;&#110;&#97;&#110;&#100;&#103;&#114;&#97;&#110;&#116;&#46;&#99;&#111;&#109;
+                        <li><span class="fa fa-paper-plane"></span> {{ config('utils.contact-email') }}
                         </li>
-                        <li><span class="fa fa-phone"></span> 0700-890-0984</li>
+                        <li><span class="fa fa-phone"></span> 0812-213-4080</li>
                     </ul>
                 </div>
             </div>
